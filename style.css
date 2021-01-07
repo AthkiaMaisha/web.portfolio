@@ -1,0 +1,32 @@
+body {font-family: 'Merriweather', serif}
+.lttr { color: lightsalmon;}
+h1 { color: tomato;
+font-size: 3rem;}
+.half-width { 
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 100%;
+}
+.linkbutton {
+    display: inline-block;
+    padding: left;
+    color: rgb(252, 89, 14);
+    background-color: transparent;
+    border:2px solid rgb(228, 64, 35);
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.01rem;
+    margin-top: 20px;
+    transition: .35s ease;
+    transition-property: background-color, color;
+    text-decoration: none;
+}
+.linkbutton:hover {
+    color: white;
+    background-color: tomato ;
+}
